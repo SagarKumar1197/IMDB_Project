@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+    font-size: 16px;
+    background-image:linear-gradient(rgba(10, 0, 0, 0.801), rgba(24, 20, 20, 0.5)), url("/images/newImage.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter: 4px;
+}
+#formBlock{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    text-align: center;
+}
+#formBlock h1{
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: bold;
+    color: #fff;
+    padding: 0px 20px;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+#formBlock span{
+    font-size: 70px;
+    display: block;
+    text-align: center;
+    background-color: #ff7a00;
+    background-image: linear-gradient(32deg,rgba(255,122,0,0) 0,#ff7a00 50%,#e5337f 68%,#7000ff 85%),linear-gradient(140deg,rgba(255,122,0,0) 0,#ff7a00 30%,#e5337f 38%);
+    color: rgba(255,255,255,0);
+    -webkit-background-clip: text;
+}
+#formBlock input{
+    padding: 15px;
+    width: 650px;
+    border-radius: 25px;
+    border: none;
+}
+form{
+    position: relative;
+}
+form i{
+    position: absolute;
+    right: 18px;
+    top: 13px;
+    font-size: 20px;
+    color: #111;
+    text-shadow: 1px 0px 0px red;
+}
+.afterKey_formBlock{
+    display: flex;
+    justify-content: flex-start !important;
+    height : auto !important;
+}
+
+
+
+#template{
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    margin: 25px auto;
+    border-radius: 10px;
+    background:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../images/IN-en-20200302-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
+
+#template div{
+    width: 24%;
+    background-color: #fff;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+}
+#template img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+#template h1{
+    font-size: 20px !important;
+}
+#template a{
+    padding: 10px;
+    background: #777777;
+    margin: 10px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 4px solid #111;
+    transform: scale(1);
+    transition: ease-in all 0.7s;
+}
+#template a:hover{
+    background-color: #111;
+}
